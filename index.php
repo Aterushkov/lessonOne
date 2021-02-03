@@ -1,5 +1,5 @@
 <?
-include "./Class/inc.php";
+include "./inc.php";
 ?>
 
 <!DOCTYPE html>
