@@ -9,11 +9,11 @@ include "./inc.php";
     <title>Title</title>
     <?php
     $product1 = new PlushToys("Мопс","MopsInc","Бежевый","600","Вата");
-    $product1->getDocSF();
+    echo $product1->getDocSF();
     ?>
     <br/>
     <?php
-    $product1->getItem();
+    echo $product1->getItem();
     ?>
     <br/>
      <?php

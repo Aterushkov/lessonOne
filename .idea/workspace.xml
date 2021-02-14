@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f16ee4b-de6a-4acc-9892-94f8e2311cf5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/One/Class/BaseItem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/One/Class/PlushToys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/One/Class/СarsToys.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two/CarInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two/CreatCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two/FabricCar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two/Lada.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two/Nissan.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Two/Renault.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/BaseItem.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/PlushToys.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/СarsToys.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/One/inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/One/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="1nypRJX3CRfnEpGzNKkZIbyfgyN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Program Files/php-7.4.15-Win32-vc15-x64/php.exe" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PhpstormProjects\lessonOne\One" />
+      <recent name="D:\PhpstormProjects\lessonOne" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.CreatCar.php">
+    <configuration name="CreatCar.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Two/CreatCar.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Lada.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Two/Lada.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Nissan.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Two/Nissan.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Renault.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Two/Renault.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/One/index.php">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Script.index.php" />
+      <item itemvalue="PHP Script.Lada.php" />
+      <item itemvalue="PHP Script.Renault.php" />
+      <item itemvalue="PHP Script.Nissan.php" />
+      <item itemvalue="PHP Script.CreatCar.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.CreatCar.php" />
+        <item itemvalue="PHP Script.Nissan.php" />
+        <item itemvalue="PHP Script.Renault.php" />
+        <item itemvalue="PHP Script.Lada.php" />
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f16ee4b-de6a-4acc-9892-94f8e2311cf5" name="Default Changelist" comment="" />
+      <created>1612372174243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612372174243</updated>
+      <workItem from="1612372175374" duration="5259000" />
+      <workItem from="1612775844313" duration="1305000" />
+      <workItem from="1612946271705" duration="5623000" />
+      <workItem from="1613326061628" duration="7289000" />
+    </task>
+    <task id="LOCAL-00001" summary="done">
+      <created>1612376838423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612376838423</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
