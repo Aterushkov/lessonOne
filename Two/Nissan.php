@@ -1,46 +1,27 @@
 <?php
-include_once  "CarInterface.php";
+include_once "CarInterface.php";
+include_once "ChoiseColor.php";
+include_once "ChoiceBodyType.php";
+include_once "ChoiceUnick.php";
 
 class Nissan implements CarInterface
 {
 
-    private function switchCase($choice, $arr): ?string
+    public function bodyType(string $type): ?string
     {
-        $res = '';
-        switch ($choice) {
-            case 0:
-                $res = $arr[0];
-                break;
-            case 1:
-                $res = $arr[1];
-                break;
-            case 2:
-                $res = $arr[2];
-                break;
-        }
-        return $res;
-    }
-
-    public function bodyType($type): ?string
-    {
-        $bodyType = self::bodyTypeArr;
-        $typeRes = self::switchCase($type, $bodyType);
-        return printf($typeRes);
+        return printf(ChoiceBodyType::choicesBodyType($type, self::BODYTYPEARR));
 
     }
 
-    public function color($color): ?string
+    public function color(string $color): ?string
     {
-        $colorType = self::colorArr;
-        $colorRes = self::switchCase($color, $colorType);
-        return printf($colorRes);
+        return printf(ChoiseColor::choicesColor($color, self::COLORARR));
     }
 
-    public function clearance($clearanceChoice): ?string
+    public function clearance(string $clearanceChoice): ?string
     {
         $clearanceCar = [15, 18, 20];
-        $clearanceRes = self::switchCase($clearanceChoice, $clearanceCar);
-        return printf($clearanceRes);
+        return printf(ChoiceUnick::choicesUnick($clearanceChoice, $clearanceCar));
     }
 }
 

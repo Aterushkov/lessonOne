@@ -1,46 +1,26 @@
 <?php
 include_once "CarInterface.php";
+include_once "ChoiseColor.php";
+include_once "ChoiceBodyType.php";
+include_once "ChoiceUnick.php";
 
 class Lada implements CarInterface
 {
 
-    private function switchCase($choice, $arr):?string
+    public function bodyType(string $type): ?string
     {
-        $res = '';
-        switch ($choice) {
-            case 0:
-                $res = $arr[0];
-                break;
-            case 1:
-                $res = $arr[1];
-                break;
-            case 2:
-                $res = $arr[2];
-                break;
-        }
-        return $res;
+        return printf(ChoiceBodyType::choicesBodyType($type, self::BODYTYPEARR));
     }
 
-    public function bodyType($type): ?string
+    public function color(string $color): ?string
     {
-        $bodyType = self::bodyTypeArr;
-        $typeRes = self::switchCase($type, $bodyType);
-        return printf($typeRes);
-
+        return printf(ChoiseColor::choicesColor($color, self::COLORARR));
     }
 
-    public function color($color): ?string
-    {
-        $colorType = self::colorArr;
-        $colorRes = self::switchCase($color, $colorType);
-        return printf($colorRes);
-    }
-
-    public function price($priceChoice): ?string
+    public function price(string $priceChoice): ?string
     {
         $priceCar = [200000, 300000, 500000];
-        $priceRes = self::switchCase($priceChoice, $priceCar);
-        return printf($priceRes);
+        return printf(ChoiceUnick::choicesUnick($priceChoice, $priceCar));
     }
 
 }
