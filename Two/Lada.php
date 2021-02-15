@@ -6,7 +6,7 @@ include_once "ChoiceUnick.php";
 
 class Lada implements CarInterface
 {
-    use ChoiseColor,ChoiceBodyType,ChoiceUnick;
+    use ChoiseColor, ChoiceBodyType, ChoiceUnick;
 
     public function bodyType(string $type): ?string
     {
@@ -25,5 +25,3 @@ class Lada implements CarInterface
     }
 
 }
-
-

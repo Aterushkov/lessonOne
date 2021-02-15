@@ -22,9 +22,9 @@ class CreatCar implements FactoryCar
 
 $fabricOne = new CreatCar();
 $carOne = $fabricOne->getCar(0);
-$carOne-> bodyType(4);
-$carOne-> color(4);
-$carOne-> price(4);
+$carOne->bodyType(4);
+$carOne->color(4);
+$carOne->price(4);
 
 //$fabricTwo = new CreatCar();
 //$carTwo = $fabricTwo->getCar(1);

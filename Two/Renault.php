@@ -1,12 +1,12 @@
 <?php
-include_once  "CarInterface.php";
+include_once "CarInterface.php";
 include_once "ChoiseColor.php";
 include_once "ChoiceBodyType.php";
 include_once "ChoiceUnick.php";
 
 class Renault implements CarInterface
 {
-    use ChoiseColor,ChoiceBodyType,ChoiceUnick;
+    use ChoiseColor, ChoiceBodyType, ChoiceUnick;
 
     public function bodyType(string $type): ?string
     {
@@ -24,4 +24,3 @@ class Renault implements CarInterface
         return printf(ChoiceUnick::choicesUnick($transmissionChoice, $transmission));
     }
 }
-

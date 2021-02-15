@@ -6,7 +6,7 @@ include_once "ChoiceUnick.php";
 
 class Nissan implements CarInterface
 {
-    use ChoiseColor,ChoiceBodyType,ChoiceUnick;
+    use ChoiseColor, ChoiceBodyType, ChoiceUnick;
 
     public function bodyType(string $type): ?string
     {
@@ -25,4 +25,3 @@ class Nissan implements CarInterface
         return printf(ChoiceUnick::choicesUnick($clearanceChoice, $clearanceCar));
     }
 }
-
