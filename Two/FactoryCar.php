@@ -1,7 +1,7 @@
 <?php
 
 
-interface FabricCar
+interface FactoryCar
 {
     public function getCar($car): ?object;
 }

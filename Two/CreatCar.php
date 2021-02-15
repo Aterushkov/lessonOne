@@ -1,11 +1,11 @@
 <?php
-include "FabricCar.php";
+include "FactoryCar.php";
 include "Lada.php";
 include "Nissan.php";
 include "Renault.php";
 include "ChoiceCar.php";
 
-class CreatCar implements FabricCar
+class CreatCar implements FactoryCar
 {
 
     public function getCar($car): ?CarInterface
