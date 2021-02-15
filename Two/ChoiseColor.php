@@ -1,7 +1,7 @@
 <?php
 
 
-class ChoiseColor
+trait ChoiseColor
 {
     static public function choicesColor($choice, $arr):?string
     {

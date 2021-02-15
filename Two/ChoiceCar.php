@@ -1,7 +1,7 @@
 <?php
 
 
-class ChoiceCar
+trait ChoiceCar
 {
     static public function choicesCar($choice, $arr):?CarInterface
     {

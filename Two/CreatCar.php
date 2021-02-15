@@ -7,6 +7,7 @@ include "ChoiceCar.php";
 
 class CreatCar implements FactoryCar
 {
+    use ChoiceCar;
 
     public function getCar($car): ?CarInterface
     {

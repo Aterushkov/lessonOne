@@ -1,7 +1,7 @@
 <?php
 
 
-class ChoiceUnick
+trait ChoiceUnick
 {
     static public function choicesUnick($choice, $arr):?string
     {

@@ -1,7 +1,7 @@
 <?php
 
 
-class ChoiceBodyType
+trait ChoiceBodyType
 {
     static public function choicesBodyType($choice, $arr):?string
     {
