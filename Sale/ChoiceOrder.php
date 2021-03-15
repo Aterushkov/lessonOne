@@ -3,5 +3,5 @@
 
 Interface ChoiceOrder
 {
-    public function getOrder($choice): ?object;
+    public function getOrder($choice): ?OrderProcessorInterface;
 }
