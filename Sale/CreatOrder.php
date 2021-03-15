@@ -11,7 +11,7 @@ class CreatOrder implements ChoiceOrder
 {
     use ChoiceOrders;
 
-    public function getOrder($choice): ?object
+    public function getOrder($choice): ?OrderProcessorInterface
     {
         $orderType = [
             new ErpOrderProcessor(),
